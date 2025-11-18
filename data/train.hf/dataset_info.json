@@ -1,0 +1,52 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "KSAT ID": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "0": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "1": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "2": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "3": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "4": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "5": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "6": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "7": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "8": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "Statement Description": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

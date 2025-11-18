@@ -1,0 +1,1006 @@
+ID ,"Knowledge Units 
+ ",Topics ,Description 
+1,Cryptography ,"Basic concepts 
+ ","This topic covers basic concepts in cryptography to  
+build the base for other sections in the knowledge  
+unit. This topic includes: 
+? Encryption/decryption, sender authentication,  
+data integrity, non-repudiation, 
+? Attack classification (ciphertext-only, known  
+plaintext, chosen plaintext, chosen ciphertext),  
+? Secret key (symmetric), cryptography and publickey (asymmetric) cryptography,  
+? Information-theoretic security (one-time pad,  
+Shannon Theorem), and 
+• Computational security "
+1, ,Advanced concepts ,"This topic includes: 
+? Advanced protocols: 
+o Zero-knowledge proofs, and protocols,  
+o Secret sharing, 
+o Commitment,  
+o Oblivious transfer,  
+o Secure multiparty computation, 
+? Advanced recent developments: fully  
+homomorphic encryption, obfuscation, quantum  
+cryptography, and KLJN scheme. "
+1, ,Mathematical background ,"This topic is essential in understanding encryption  
+algorithms. More advanced concepts may be included,  
+if needed. This topic includes: 
+? Modular arithmetic,  
+? Fermat, Euler theorems,  
+? Primitive roots, discrete log problem,  
+? Primality testing, factoring large integers,  
+? Elliptic curves, lattices and hard lattice problems,  
+? Abstract algebra, finite fields, and 
+? Information theory. "
+1, ,Historical ciphers ,"This topic includes the following and their current  
+applications (if any): 
+? Shift cipher, affine cipher, substitution cipher,  
+Vigenere cipher, ROT-13, and 
+? Hill cipher, Enigma machine, and others "
+1, ,"Symmetric (private key)  
+ciphers ","This topic includes: 
+? B block ciphers and stream ciphers (pseudorandom permutations, pseudo-random  
+generators),  
+? Feistel networks, Data Encryption Standard  
+(DES),  
+? Advanced Encryption Standard (AES),  
+? Modes of operation for block ciphers,  
+? Differential attack, linear attack, and 
+? Stream ciphers, linear feedback shift registers,  
+RC4. "
+1, ,"Asymmetric (public-key)  
+ciphers ","This topic includes: 
+? Theoretical concepts (Computational complexity,  
+one-way trapdoor functions),  
+? Naive RSA,  
+? Weakness of Naive RSA, padded RSA,  
+? Diffie-Hellman protocol, 
+? El Gamal cipher,  
+? Other public-key ciphers, including GoldwasserMicali, Rabin, Paillier, McEliece, and 
+? Elliptic curves ciphers. "
+"1,5 ",Digital Forensics , ,"This topic includes: 
+? Definition, and 
+? Limits and types of tools (open source versus  
+closed source) "
+"1,5 ", ,Legal Issues ,"This topic includes: 
+? Right to privacy, 
+? Fourth and Fifth Amendments, 
+? Protection of encryption keys under the Fifth  
+Amendment, 
+? Types of legal authority (owner consent, search  
+warrant, FISA, Title III (wiretap), abandonment,  
+exigent circumstances, plain sight, etc.), 
+? Protection from legal processes (e.g., ISP  
+subscriber information via subpoena, e-mail  
+server transactional data from 2703(d) court  
+order, full content via search warrant, etc.), 
+? Legal request for preservation of digital evidence  
+(e.g., via 2703(f) preservation letter), and 
+? Affidavits, testimony and testifying, "
+"1,5 ", ,Digital forensic tools ,"This topic includes: 
+? Types, 
+? Artifact-focused versus all-in-one tools, 
+? Requirements, and 
+? Limitations "
+"1,5 ", ,Investigatory process ,"This topic includes: 
+? Alerts, 
+? Identification of evidence, 
+? Collection and preservation of evidence, 
+? Timelines, reporting, chain of custody, and 
+? Authentication of evidence. "
+"1,5 ", ,"Acquisition and  
+preservation of evidence ","This topic includes: 
+? Pull-the-plug versus triage, 
+? Write-blocking, 
+? Forensically-prepared destination media, 
+? Imaging procedures, 
+? Acquisition of volatile evidence, 
+? Live forensics analysis, and 
+? Chain of custody. "
+"1,5 ", ,Analysis of evidence ,"This topic focuses on knowledge (awareness the  
+artifact exists), attributes (components and possible  
+variations of the artifact), origin/cause (emphasis on  
+why the artifact exists), discoverability (how the  
+artifact is located/viewed with tools), relevance  
+(significance in the context of the specific  
+investigation). 
+Includes:  
+? Sources of digital evidence, 
+? Deleted and undeleted files, temporary files, 
+? Metadata, 
+? Print spool files 
+? Slack space, 
+? Hibernation files, 
+? Windows registry, 
+? Browser history, 
+? Log files, 
+? File systems, 
+? File recovery, and 
+? File carving. "
+"1,5 ", ,Presentation of results ,"This topic includes: 
+? Timeline analysis, 
+? Attribution,  
+? Lay versus technical explanations, 
+? Executive summaries, 
+? Detailed reports, and 
+? Limitations. "
+"1,5 ", ,"Authentication of  
+evidence ","This topic includes: 
+? Hashing algorithms (MD5, SHA-1, etc.), 
+? Hashing entire media vs individual files, and 
+? Pre-exam and post-exam verification hashing. "
+"1,5 ", ,"Reporting, incident  
+response and handling ","This topic includes: 
+? Report structures, 
+? Incident detection and analysis, 
+? Containment, eradication and recovery, 
+? Post-incident activities, and 
+? Information sharing, "
+"1,5 ", ,Mobile forensics ,"This topic includes: 
+? Wireless technologies, 
+? Mobile device technology, 
+? Collection/Isolation of mobile device, 
+? Mobile operating systems (OS) and Apps, and 
+? Mobile artifacts "
+1,"Data Integrity and  
+Authentication ",Authentication strength ,"This topic includes: 
+? Multifactor authentication, 
+? Cryptographic tokens, 
+? Cryptographic devices, 
+? Biometric authentication, 
+? One-time passwords, and 
+? Knowledge-based authentication "
+1, ,"Password attack  
+technique ","This topic includes: 
+? Dictionary attack, 
+? Brute force attack, 
+? Rainbow table attack, 
+? Phishing and social engineering, 
+? Malware-based attack, 
+? Spidering, 
+? Off-line analysis, and 
+? Password cracking tools "
+1, ,"Password storage  
+techniques ","This topic includes: 
+? Cryptographic hash functions (SHA-256, SHA-3,  
+collision resistance), 
+? Salting, 
+? Iteration count, and 
+? Password-based key derivation. "
+1, ,Data integrity ,"This topic includes: 
+? Message authentication codes (HMAC,  
+CBC-MAC), 
+? Digital signatures, 
+? Authenticated encryption, and 
+? Hash trees. "
+1,Access Control ,Physical data security ,"This topic includes: 
+? Data center security, including keyed access, man  
+trips, key cards and video surveillance, 
+? Rack-level security, and 
+? Data destruction "
+1, ,"Logical data access  
+control ","This topic includes: 
+? Access control lists, group policies, passwords, 
+? Discretionary Access Control (DAC), 
+? Mandatory Access Control (MAC), 
+? Role-based Access Control (RBAC), 
+? Attribute-based Access Control (ABAC), 
+? Rule-based Access Control (RAC), 
+? History-based Access Control (HBAC), 
+? Identity-based Access Control (IBAC), 
+? Organization-based Access Control (OrBAC),  
+and 
+? Federated identities and access control. "
+1, ,Secure architecture design ,"This topic includes: 
+? Principles of a security architecture, and 
+? Protection of information in computer systems. "
+1, ,"Data leak prevention  
+techniques ","This topic includes: 
+? Controlling authorized boundaries, 
+? Channels, 
+? Destinations, and 
+? Methods of data sharing. "
+1,"Secure  
+Communication  
+Protocols ","Application and transport  
+layer protocols ","This topic includes: 
+? HTTP, 
+? HTTPS, 
+? SSH, and 
+? SSL/TLS. "
+1, ,Attacks on TLS ,"This topic includes: 
+? Downgrade attacks, 
+? Certificate forgery 
+? Implications of stolen root certificates, and 
+? Certificate transparency. "
+1, ,Internet/Network layer ,This topic includes IPsec and VPN 
+1, ,"Privacy preserving  
+protocols ","This topic includes Mixnet, Tor, Off-the-record  
+message, and Signal "
+1, ,Data link layer ,"This topic includes L2TP, PPP and RADIUS. "
+1,Cryptanalysis ,Classical attacks ,"This topic includes: 
+? Brute-force attack,  
+? Frequency-based attacks,  
+? Attacks on the Enigma machine, and 
+? Birthday-paradox attack. "
+1, ,Side-channel attacks ,"This topic includes: 
+? Timing attacks, 
+? Power-consumption attacks, and 
+? Differential fault analysis. "
+1, ,Attacks against privatekey ciphers ,"This topic includes: 
+? Differential attack,  
+? Linear attack, and 
+? Meet-in-the-middle attack. "
+1, ,Attacks against publickey ciphers ,"This topic includes factoring algorithms (Pollard’s p-1  
+and rho methods, quadratic sieve, and number field  
+sieve) "
+1, ,"Algorithms for solving  
+the Discrete Log  
+Problem ","This topic includes: 
+? Pohlig-Hellman, 
+? Baby Step/Giant Step, and 
+? Pollard’s rho method "
+1, ,Attacks on RSA ,"This topic includes: 
+? Shared modulus, 
+? Small public exponent, and 
+? Partially exposed prime factors "
+"1,6,8 ",Data Privacy , ,"This topic includes: 
+? Definitions (Brandeis, Solove), 
+? Legal (HIPAA, FERPA, GLBA), 
+? Data collection, 
+? Data aggregation, 
+? Data dissemination, 
+? Privacy invasions, 
+? Social engineering, and 
+? Social media "
+1,"Information Storage  
+Security ",Disk and file encryption ,"This topic includes hardware-level versus software  
+encryption "
+1, ,Data erasure ,"This topic includes: 
+? Overwriting, degaussing, 
+? Physical destruction methods, and 
+? Memory remanence. "
+1, ,Data masking ,"For this topic, include the need and techniques for  
+data masking. The following is a non-exhaustive list  
+of subtopics to be covered: 
+? Data masking for testing, 
+? Data masking for obfuscation, and 
+? Data masking for privacy. "
+1, ,Database security ,"This topic includes: 
+? Access/authentication, auditing, and 
+? App integration paradigms "
+1, ,Data security law ,"This topic introduces the legal aspects of data security,  
+laws and policies that govern data (e.g., HIPAA). It  
+also provides an introduction to other law-related  
+topics in the Organizational Security knowledge area "
+ , , , 
+"2, 3 ","Fundamental  
+Principles ", ,"This knowledge unit introduces the principles that  
+underlie both design and implementation. The first  
+five are restrictiveness principles, the next three are  
+simplicity principles, and the rest are methodology  
+principles. "
+"2,3 ", ,Least privilege ,"Software should be given only those privileges that it  
+needs to complete its task. "
+"2,3 
+ ", ,Fail-safe defaults ,"The initial state should be to deny access unless  
+access is explicitly required. Then, unless software is  
+given explicit access to an object, it should be denied  
+access to that object and the protection state of the  
+system should remain unchanged. "
+"2,3 
+ ", ,Complete mediation ,"Software should validate every access to objects to  
+ensure that the access is allowed "
+"2,3 
+ ", ,Separation ,"Software should not grant access to a resource, or  
+take a security-relevant action, based on a single  
+condition. "
+"2,3 
+ ", ,Minimize trust ,"Software should check all inputs and the results of all  
+security-relevant actions. "
+"2,3 
+ ", ,Economy of mechanism ,"Security features of software should be as simple as  
+possible "
+"2,3 
+ ", ,"Minimize common  
+mechanism ","The sharing of resources should be reduced as much  
+as possible. "
+"2,3 
+ ", ,Least astonishment ,"Security features of software, and security  
+mechanisms it implements, should be designed so  
+that their operation is as logical and simple as  
+possible. "
+"2,3 
+ ", ,Open design ,"Security of software, and of what that software  
+provides, should not depend on the secrecy of its  
+design or implementation. "
+"2,3 
+ ", ,Layering ,"Organize software in layers so that modules at a  
+given layer interact only with modules in the layers  
+immediately above and below it. This allows you to  
+test the software one layer at a time, using either topdown or bottom-up techniques, and reduces the  
+access points, enforcing the principle of separation. "
+"2,3 
+ ", ,Abstraction ,"Hide the internals of each layer, making only the  
+interfaces available; this enables you to change how  
+a layer carries out its tasks without affecting  
+components at other layers. "
+"2,3 
+ ", ,Modularity ,"Design and implement the software as a collection of  
+co-operating components (modules); indeed, each  
+module interface is an abstraction "
+"2,3 
+ ", ,Complete linkage ,"Tie software security design and implementation to  
+the security specifications for that software "
+"2,3 
+ ", ,Design for iteration ,"Plan the design in such a way that it can be changed,  
+if needed. This minimizes the effects with respect to  
+the security of changing the design if the  
+specifications do not match an environment that the  
+software is used in. "
+2,Design , ,"This knowledge unit describes techniques for  
+including security considerations throughout the  
+design of software. "
+2, ,"Derivation of security  
+requirements ","Beginning with business, mission, or other  
+objectives, determine what security requirements are  
+necessary to succeed. These may also be derived, or  
+changed, as the software evolves. "
+2, ,"Specification of security  
+requirements ","Translate the security requirements into a form that  
+can be used (formal specification, informal  
+specifications, specifications for testing). "
+2, ,"Software development  
+lifecycle/Security  
+development lifecycle ","Include the following examples: waterfall model,  
+agile development and security. "
+2, ,"Programming languages and  
+type-safe languages ","Discuss the problems that programming languages  
+introduce, what type-safety does, and why it is  
+important. "
+2,Implementation , ,"This knowledge unit describes techniques for  
+including security considerations throughout the  
+implementation of software. "
+2, ,"Validating input and  
+checking its representation ","For this topic: 
+? Check bounds of buffers and values of integers  
+to be sure they are in range, and 
+? Check inputs to make sure they are what is  
+expected and will be processed/interpreted  
+correctly. "
+2, ,Using APIs correctly ,"For this topic: 
+? Ensure parameters and environments are 
+validated and controlled so that the API enforces  
+the security policy properly, and 
+? Check the results of using the API for problems. 
+ "
+2, ,Using security features ,"For this topic: 
+? Use cryptographic randomness, and 
+? Properly restrict process privileges. "
+2, ,"Checking time and state  
+relationships ","For this topic: 
+? Check that the file acted upon is the one for  
+which the relevant attributes are checked, and 
+? Check that processes run "
+2, ,"Handling exceptions and  
+errors properly ","For this topic: 
+? Block or queue signals during signal processing,  
+if necessary, and 
+? Determine what information should be given to  
+the user, balancing usability with any need to  
+hide some information, and how and to whom to  
+report that information. "
+2, ,Programming robustly ,"This topic is sometimes called secure or defensive  
+programming. Curricular content should include: 
+? Only deallocate allocated memory, 
+? Initialize variables before use, and 
+? Don't rely on undefined behavior. "
+2, ,"Encapsulating structures and  
+modules ","This topic includes classes and other instantiations.  
+Example: isolating processes. "
+2, ,"Taking environment into  
+account ","Example: don't put sensitive information in the  
+source code. "
+"2,3 
+ ","Analysis and  
+Testing ", ,"This knowledge unit introduces testing  
+considerations for validating that the software meets  
+stated (and unstated) security requirements and  
+specifications. Unstated requirements include those  
+related to robustness in general. "
+"2,3 
+ ", ,Static and dynamic analysis ,"This topic describes the different methods for each of  
+these, includes how static and dynamic analysis work  
+together, and the limits and benefits of each, as well  
+as how to perform these types of analyses on very  
+large software systems. "
+"2,3 
+ ", ,Unit testing ,"This topic describes how to test component parts of  
+the software, like modules "
+"2,3 
+ ", ,Integration testing ,"This topic describes how to test the software  
+components as they are integrated "
+"2,3 
+ ", ,Software testing ,"This topic describes how to test the software as a  
+whole, and place unit and integration testing in a  
+proper framework. "
+2,Deployment and maintenance , ,"This knowledge unit discusses security considerations in the use of software, and in its  
+deployment, maintenance, and removal. 
+ "
+2, ,Configuring ,"This topic covers how to set up the software system  
+to make it function correctly "
+2, ,"Patching and the  
+vulnerability lifecycle ","This topic includes managing vulnerability reports,  
+fixing the vulnerabilities, testing the patch and patch  
+distribution. "
+2, ,Checking environment ,"This topic covers ensuring the environment matches  
+the assumptions made in the software, and if not,  
+how to handle the conflict "
+2, ,DevOps ,"This topic combines development and operation, and  
+the automation and monitoring of both. "
+2, ,Decommissioning/Retiring ,"This topic describes what happens when the software  
+is removed, and how to remove it without causing  
+security problems. "
+2,Documentation , ,"This knowledge unit describes how to introduce and  
+include information about security considerations in  
+configuration, use, and other aspects of using the  
+software and maintaining it (including modifying it  
+when needed). "
+2, ,Installation documents ,"This topic includes installation and configuration  
+documentation. "
+2, ,User guides and manuals ,"This topic includes tutorials and cheat sheets (brief  
+guides); these should emphasize any potential  
+security problems the users can cause. "
+2, ,Assurance documentation ,"This topic focuses on how correctness was  
+established, and what correctness means here. "
+2, ,Security documentation ,"This topic focuses on potential security problems,  
+how to avoid them, and if they occur, what the  
+effects might be and how to deal with them. "
+"2, 7, 8 ",Ethics , ,"This knowledge unit introduces ethical  
+considerations in all of the above areas, so students  
+will be able to reason about the consequences of  
+security-related choices and effects. "
+"2, 7, 8 
+ ", ,"Ethical issues in software  
+development ","This topic covers code reuse (licensing), professional  
+responsibility, codes of ethics such as the  
+ACM/IEEE-CS Software Engineering Code of Ethics  
+and Professional Practice. "
+"2, 7, 8 
+ ", ,"Social aspects of software  
+development ","This topic covers considerations of the effects of  
+software under development, both when the software  
+works properly and the consequences of poor or non- secure programming practices. 
+ "
+"2, 7, 8 
+ ", ,"Legal aspects of software  
+development ","This topic discusses the liability aspects of software,  
+regulations; also compliance and issues related to it. "
+"2, 7, 8 
+ ", ,Vulnerability disclosure ,"This topic covers how to disclose, to whom to  
+disclose, and when to disclose (“responsible  
+disclosure”). "
+"2, 7, 8 ", ,"What, when and why to test ","This topic describes the ethical implications of  
+testing, especially including corner cases. "
+ , , , 
+"3, 2 ","Component  
+Design ", ,"This knowledge unit introduces design principles and  
+techniques which increase the security of  
+components "
+"3, 2 
+ ", ,Component design security ,"This topic covers threats to the security of  
+component design artifacts (e.g., schematics, netlists,  
+and masks) such as hardware Trojans, intellectual  
+property piracy, reverse engineering, tampering, 
+side-channel analysis and counterfeiting. It also  
+introduces techniques for protecting components  
+from unauthorized access and use. "
+"3, 2 
+ ", ,"Principles of secure  
+component design ","This topic covers principles such as establishing a  
+sound security policy, treating security as an integral  
+part of system design, trusted computing platforms,  
+chain of trust, reducing risk, layered security,  
+simplicity of design, minimizing system elements to  
+be trusted, and avoiding unnecessary security  
+mechanisms. "
+"3, 2 
+ ", ,Component identification ,"This topic covers techniques such as watermarking,  
+fingerprinting, metering, encrypted IDs, and physical  
+unclonable functions for protecting components  
+against intellectual property theft and ensuring  
+component authenticity. "
+"3, 2 
+ ", ,"Anti-reverse engineering  
+techniques ","This topic covers techniques such as design  
+obfuscation and camouflaging for making component  
+designs and implementations difficult to reverse  
+engineer "
+"3, 2 
+ ", ,"Side-channel attack  
+mitigation ","This topic covers techniques for defending against  
+side-channel attacks primarily targeted at  
+cryptographic algorithms. Defensive techniques  
+include leakage reduction, noise injection, frequent  
+key updates, physical random functions, and secure  
+scan chains. "
+"3, 2 
+ ", ,Anti-tamper technologies ,"This topic covers techniques for making components  
+resistant to physical and electronic attacks including  
+physical protection techniques, tamper evident  
+systems and tamper responding systems. "
+3,"Component  
+Procuremen ", ,"This knowledge unit describes techniques for  
+ensuring that the security of system components is  
+maintained throughout the procurement process. "
+3, ,Supply chain risks ,"This topic describes security threats and risks to both  
+hardware and software in component procurement. "
+3, ,Supply chain security ,"This topic describes strategies such as physical  
+security, split manufacturing, traceability, cargo  
+screening and validation, and inspections to detect  
+and prevent compromises of component security  
+during the procurement process "
+3, ,Supplier vetting ,"This topic includes strategies such as supplier  
+credentialing to establish trusted suppliers and  
+transporters of components. "
+"3,2 ","Component  
+Testing ", ,"This knowledge unit introduces unit testing  
+techniques and describes tools and techniques used to  
+test the security properties of a component. "
+"3,2 ", ,Principles of unit testing ,"This topic describes unit testing tools and techniques  
+as distinguished from system-level testing "
+"3,2 ", ,Security testing ,"This topic describes tools and techniques such as  
+fuzz testing for testing the security properties of a  
+component beyond its functional correctness. "
+3,"Component  
+Reverse  
+Engineering ", ,"This knowledge unit describes techniques for  
+discovering the design and functionality of a  
+component with incomplete information. "
+3, ,Design reverse engineering ,"This topic describes tools and techniques for  
+discovering the design of a component at some level  
+of abstraction. "
+3, ,"Hardware reverse  
+engineering ","This topic describes tools and techniques for  
+discovering the functionality and other properties of  
+a component’s hardware, such as the functions of an  
+integrated circuit. "
+3, ,Software reverse engineering ,"This topic describes tools and techniques such as  
+static and dynamic analysis for discovering the  
+functionality and properties of a component’s  
+software. "
+ , , , 
+4,Physical Media , ,"This knowledge unit introduces the concepts of  
+physical signaling and transmission. These general  
+concepts could be introduced through presenting the  
+history of Ethernet protocols and 802.11 wireless.  
+Starting with a coax broadcast domain and  
+CSMA/CD, moving to hubs and then switches  
+without changing the addressing and payload. The  
+introduction of switching required simulating  
+broadcast behavior to simulate the coax broadcast  
+behavior. Wireless is a shared medium but physical  
+characteristics of the medium required different  
+collision avoidance mechanisms than coax "
+4, ,Transmission in a medium ,"This topic covers signals in coax, twisted pair, optical fiber, and air "
+4, ,"Shared and point-to-point  
+media ","This topic discusses the communication  
+characteristic of the media "
+4, ,Sharing models ,"This topic describes the various schemes for sharing  
+media between multiple clients. For example: 802.1  
+MAC addressing and PPP. "
+4, ,Common technologies ,"This topic examines various implementations of the  
+models covered above. IEEE 802.3 (Ethernet),  
+IEEE 802.11 (Wi-Fi), IEEE 802.16 (fixed wireless  
+broadband) "
+4,"Physical Interfaces  
+and Connectors ", ,"This knowledge unit describes the characteristics of  
+connectors, their materials, and standards that define  
+the characteristics of the connectors. Different  
+materials have different characteristics and signal  
+transmission capability. Even non-technical security  
+people need to understand that optical fiber is  
+different than twisted pair and that each has  
+different standards and specific standard connectors. "
+4, ,"Hardware characteristics and  
+materials ","This topic introduces the connection characteristics  
+of various media and the requirements for physical  
+connections. "
+4, ,Standards ,"This topic examines various standards for  
+connectors. "
+4, ,Common connectors ,"RJ 11, Rj 45, ST, SC, MTRJ, SFF ISA Buss, etc. "
+4,"Hardware  
+Architecture ", ,"This knowledge unit introduces the advantages and  
+potential vulnerabilities of standard hardware  
+architectures. "
+4, ,Standard architectures ,"This topic should introduce the idea of standard  
+architectures and the advantages of standardization.  
+The history of PC motherboards could be used as an  
+example showing the evolution from ISA through  
+PCI and beyond. The ability for cards to add  
+functionality without changing the base architecture  
+is important. Adding Multiport Ethernet ports in a  
+card allows a PC to become a router. "
+4, ,Hardware interface standards ,"This topic introduces various hardware interface  
+standards starting with IC package design, through  
+busses such as ISA and PCI for integration  
+platforms and on to networking standards like  
+IEEE 802.3 "
+4, ,Common architectures ,"This topic should examine the current technologies  
+learners will face (CPU chips, PC motherboard,  
+Ethernet standards) "
+4,"Distributed  
+Systems  
+Architecture ", ,"This knowledge unit introduces the general concepts  
+of distributed systems and how they are connected  
+together. The Internet is not the only network and  
+TCP/IP is not the only protocol for system interconnection. Each implementation has specific  
+characteristics and different potential  
+vulnerabilities. The focus of the curriculum should  
+be on similarities, differences, and why design  
+choices are made. Each architecture has advantages  
+and disadvantages for particular use cases and each  
+has particular vulnerabilities and strengths from a  
+security perspective. One cannot assume that a  
+mitigation strategy for the Internet will be  
+appropriate for a supercomputer infrastructure. 
+ "
+4, ,General concepts ,"This topic should start with the idea of a process in  
+and operating system and then introduce the various  
+architectures for running processes and enabling  
+their communication. Symmetric multiprocessing  
+and shared memory, network based with an  
+interprocess communication model. "
+4, ,World-wide-web ,"This topic covers the HTTP/HTTPS protocol and  
+demonstrates how it is an example of a distributed  
+processing standard. "
+4, ,The Internet ,"This topic covers the evolution of the Internet as a  
+distributed processing platform. Learners should be  
+clear as to why the world-wide-web and the Internet  
+are not equivalent. "
+4, ,Protocols and layering ,"This topic covers the 7 layer OSI model along with  
+the 5 layer Internet model and compares them as an  
+example of encapsulation and layering to enable  
+services that build on each other "
+4, ,"High performance computing  
+(supercomputers) ","This topic introduces HPC and use cases that  
+distinguish HPC from the standard Internet. "
+4, ,"Hypervisors and cloud  
+computing implementations ","This topic introduces the concepts of providing  
+infrastructure as a service (IaaS), Software as a  
+Service (SaaS), Platform as a Service (PaaS), and all  
+of their relatives relevant to the learners should be  
+covered "
+4, ,"Vulnerabilities and example  
+exploits ","This topic examines the attack surfaces of the  
+various distributed computing models emphasizing  
+the fact that every interface introduces potential  
+vulnerabilities. The hypervisor, virtual networking,  
+physical network, and interprocess communication  
+should all be covered. "
+4,"Network  
+Architecture ", ,"This knowledge unit introduces the concepts  
+typically covered in a computer networking course.  
+It provides the foundation for the more specialized  
+KUs. "
+4, ,General concepts ,"This topic should cover the ideas of nodes and  
+edges with the names of the various topologies and  
+the transmission characteristics of the topologies. "
+4, ,Common architectures ,"This topic covers the IEEE 802 network architecture and how the various networks are named based on  
+the physical characteristics (LANs, MANs, etc.). "
+4, ,Forwarding ,"This topic covers packet forwarding in general.  
+Since similar switching silicone is now used in  
+routers and switches, and SDN treats forwarding  
+separate from building the forwarding table, this is  
+its own topic. "
+4, ,Routing ,"This topic covers routing algorithms and explains  
+how forwarding tables are built using graph analysis  
+algorithms such as link-state and distance vector. "
+4, ,Switching/Bridging ,"This topic covers learning algorithms and IEEE  
+802.1 bridging along with Spanning Tree Protocol  
+and its relationship to routing. It is not currently  
+clear how this topic will evolve with STP being  
+replaced through the emergence of Trill and STP. "
+4, ,Emerging trends ,"This topic covers emerging technologies and their  
+impact as they emerge. Currently the impact of  
+SDN and adding routing to layer 2 with enhanced  
+learning bridges would be the content. This is  
+evolving rapidly. "
+"4,5 ", ,"Virtualization and virtual  
+hypervisor architecture ","Virtualization has provided ways to design  
+architecture using either native virtualization  
+(type 1) or virtualization under the control of a host  
+operating system (type 2). "
+4,"Network  
+Implementations ", ,"This knowledge unit explores specific technologies  
+that implement the general concepts of networking.  
+Network architecture concepts may be illustrated by  
+specific implementations but it should be made  
+clear that there are other possibilities. It should be  
+emphasized that vulnerabilities are exploited in  
+implementations. Often an architecture can be  
+proven correct theoretically, but implemented in a  
+way that has vulnerabilities. Also seams between  
+technologies often open vulnerabilities. ARP  
+poisoning is a perfect example of how a seam  
+between technologies opens vulnerabilities. "
+4, ,IEEE 802/ISO networks ,"This topic is a deep dive into the ISO standards. It is  
+expected that this topic will be introduced other  
+places. "
+4, ,IETF networks and TCP/IP ,"This is a deep dive into the basic infrastructure of  
+the Internet and TCP. "
+4, ,"Practical integration and glue  
+protocols ","This topic looks at the problem of integrating  
+technologies through the implementation of what  
+could be called interface shims or glue code. ARP is  
+the obvious example. A mechanism was required to  
+map the IP addresses of the IETF internetworking  
+model to the MAC addresses of the underlying  
+networks. ARP is the glue. Similarly, Infiniband  
+needs a shim to carry IP traffic. Other examples abound. 
+ "
+4, ,"Vulnerabilities and example  
+exploits ","This topic should provide examples from the  
+technologies important to the program. If ARP is  
+chosen as an example, ARP poisoning as a MitM  
+attach works well. USB and other serial connections  
+could also provide examples. "
+4,Network Services , ,"This knowledge unit explores different models used  
+to implement connectivity between the consumer of  
+a service and the provider of a service. Each topic  
+can be explored at many levels with many examples  
+(e.g., wireless issues surrounding biomedical  
+devices). This area is broken out because the service  
+models can be implemented in so many ways with  
+so many different architectures. Remote procedure  
+calls (RPC) are implemented over many different  
+connection technologies varying from process-to-process in a single processor to across the Internet.  
+The security concerns are different and the design  
+tradeoffs change based on implementations and  
+requirements. "
+4, ,Concept of a service ,"This topic is a network-centric dive into one model  
+of distributed computing. A service is a process that  
+provides something to another process based on a  
+request. "
+4, ,"Service models (client-server,  
+peer-to-peer) ","This topic is a network-centric look at how services  
+are modelled. From a network perspective, the  
+client initiates a connection and a server responds.  
+With P2P either side can initiate the request "
+4, ,"Service protocol concepts  
+(IPC, APIs, IDLs) ","This topic describes all of the ways components  
+connect. Procedure calls, IPC requests, Interface  
+Definition Languages with stub code, private  
+protocols over a socket, everything. "
+4, ,"Common service  
+communication architectures ","This topic looks at specific services and how their  
+protocols are implemented. Examples are SMTP,  
+HTTP, SNMP, REST, CORBA, etc. Specialty  
+connections such as wireless control of implanted  
+medical devices can also be examined. "
+4, ,Service virtualization ,"This topic covers service virtualization as a method  
+to emulate the behavior of specific components such  
+as cloud-based applications and service-oriented  
+architecture. "
+4, ,"Vulnerabilities and example  
+exploits ","This topic looks at the vulnerabilities and exploits of  
+client-server, peer-to-peer, and virtualization  
+network services. Common service signatures are  
+often used for vulnerability profiling. "
+4,Network Defense , ,"This knowledge unit captures current concepts in  
+network protection. It is likely that the vocabulary  
+and technology will evolve significantly over time.  
+The key ideas should include connection vulnerabilities like inserting a tap into a connector  
+and enabling eavesdropping. All of these provide  
+vulnerabilities that can be exploited for man-in-the-middle attacks. The idea of base-line capture and  
+monitoring for deviations from the base needs to be  
+covered as it applies in several of the specific topics. "
+4, ,Network hardening ,"This topic covers ways to help the network defend  
+itself from unauthorized access. "
+4, ,Implementing IDS/IPS ,"This topic covers intrusion detection and intrusion  
+prevention services. These services audit the  
+network traffic. "
+4, ,"Implementing firewalls and  
+virtual private networks  
+(VPNs) ","This topic covers the installation and use of 
+firewalls and virtual private networks "
+4, ,Defense in depth ,"This topic introduces the idea that defenses must be  
+layered. "
+4, ,Honeypots and honeynets ,"This topic introduces the idea of providing  
+intentionally vulnerable networks and devices in  
+isolated networks so that they can be watched and  
+analyzed as they are attacked "
+4, ,Network monitoring ,"This topic covers the tools and techniques for  
+monitoring network devices and their associated  
+logs. "
+4, ,Network traffic analysis ,"This topic covers the tools and techniques for  
+capturing and analyzing the packets flowing through  
+the network. Research topic in this area include  
+threat hunting and attack pattern detection. "
+4, ,"Minimizing exposure (attack  
+surface and vectors) ","This topic covers the tools and techniques for  
+finding and mitigating vulnerabilities through  
+looking at potential weaknesses. "
+4, ,"Network access control  
+(internal and external) ","This topic covers tools and techniques for limiting  
+the flow of packets based upon rules for packet  
+content. Examples include network admission  
+control techniques; machine certificates; machine  
+profiling techniques; probing with SNMP, DHCP,  
+HTTP, DNS, LDAP, and NMAP. "
+4, ,"Perimeter networks (also  
+known as demilitarized zones  
+or DMZs) / Proxy Servers ","This topic covers tools and techniques for  
+implementing Defense in Depth using isolated  
+networks and special servers. "
+4, ,"Network policy development  
+and enforcement ","This topic covers the creation of policies that  
+provide guidance and requirements for the services  
+provided by the network along with the measures to  
+be used to see that the policies are followed. "
+4, ,"Network operational  
+procedures ","This topic discusses the creation of procedures that  
+are used to operate the network "
+4, ,"Network attacks (e.g., session hijacking, man-in-the-middle) ","This topic covers the tools and techniques used to test the network by actually attempting to exploit  
+vulnerabilities. 
+ "
+4, ,"Threat hunting and machine  
+learning ","This topic covers how proactive threat hunting uses  
+machine learning to detect patterns in attack vectors. "
+ , , , 
+5,System Thinking , ,"This knowledge unit introduces the student to  
+thinking of the system as a whole, rather than  
+simply a number of connected components. 
+ "
+5, ,What is a system? ,"This topic discusses the definition of system and  
+how it depends on context "
+5, ,"What is systems  
+engineering? ","This topic focuses on the value of having good  
+systems engineering artifacts in order to inform  
+security risk management "
+5, ,Holistic approaches ,"This topic covers viewing the system as a whole  
+rather than as simply a collection of interconnected  
+components. For example, viewing the human,  
+organizational and environmental considerations of  
+the whole as opposed to viewing each individual  
+component and connection and how they affect the  
+view of risk. "
+5, ,"Security of general-purpose  
+systems ","This topic covers the security considerations of  
+computing and of systems in general. "
+5, ,"Security of special-purposes  
+systems ","This topic covers security considerations derived  
+from the purposes to which the system is put. "
+5, ,Threat models ,"This topic covers what security problems can arise  
+and how they might be realized, detected, and  
+mitigated. "
+5, ,Requirements analysis ,"This topic presents requirements derivation and  
+validation throughout the system lifecycle,  
+including in various methodologies such as the  
+waterfall and agile development methodologies. "
+"5,2 ", ,Fundamental principles ,"The Software Security knowledge area covers these  
+principles in detail, but they also apply here. "
+5, ,Development for testing ,"This topic covers designing systems for ease and  
+effectiveness of testing. "
+5,System Management , ,"This knowledge unit describes techniques for  
+including security considerations throughout the  
+management of the system. "
+5, ,Policy models ,"This topic includes examples such as BellLaPadula, Clark-Wilson, Chinese Wall, and  
+Clinical Information Systems Security "
+5, ,Policy composition ,This topic covers restrictiveness. 
+5, ,Use of automation ,"This topic includes data mining, machine learning  
+and related techniques, and their benefits and  
+limitations "
+"5,2 ", ,"Patching and the  
+vulnerability life cycle ","This topic includes the security issues patching  
+raises such as whether to patch a system, and  
+patching a running system, as well as how to handle  
+vulnerability reports "
+5, ,Operation ,"This topic includes security in operation, and the  
+importance of usability considerations "
+5, ,"Commissioning and  
+decommissioning ","This topic describes the security considerations  
+when installing and removing a system. "
+5, ,Insider threat ,"This topic includes examples of insider threats such  
+as data exfiltration and sabotage, and covers  
+countermeasures. 
+ "
+5, ,Documentation ,"This topic covers security and assurance  
+documentation as well as installation and user  
+guides focused on the system itself. "
+5, ,Systems and procedures ,"This topic discusses procedures that are used to  
+manage systems. "
+"5,6 ",System Access , ,"This knowledge unit introduces security  
+considerations about controlling access to systems.  
+It deals with the identification of entities, and  
+confirmation of that identification to the desired  
+level of granularity. Topics overlap with the Human  
+Security knowledge area, but the focus here is on  
+the system elements and not the human ones. "
+"5,6 ", ,Authentication methods ,"Authentication methods refers to human-to-system  
+or system-to-system authentication; examples  
+include passwords, biometrics, dongles, and single  
+sign-on. "
+"5,6 ", ,Identity ,"How is identity represented to the system? This  
+topic includes roles as well as names, etc. "
+5,System Control , ,"This knowledge unit examines the security  
+considerations involved in controlling the system  
+itself. It includes detecting, compensating for,  
+defending against, and preventing attacks. "
+"5,1 ", ,Access control ,"This topic focuses on controlling access to  
+resources, and the integrity of the controls, rather  
+than their controlling access to data, which is  
+covered in the Data Security knowledge area. "
+5, ,Authorization models ,"This topic covers the management of authorization  
+across many systems, and the distinction between  
+authentication and authorization "
+5, ,Intrusion detection ,"This topic covers anomaly, misuse (rule-based,  
+signature-based) and specification-based  
+techniques "
+5, ,Attacks ,"This topic covers attack models (such as attack  
+trees and graphs) and specific attacks. "
+5, ,Defenses ,"This topic includes examples such as ASLR, IP  
+hopping, and intrusion tolerance. "
+5, ,Audit ,"This topic covers logging, log analysis, and  
+relationship to intrusion detection. "
+5, ,Malware ,"This topic includes examples such as computer 
+viruses, worms, ransomware, and other forms of  
+malware "
+5, ,Vulnerabilities models ,"This topic includes examples such as RISOS and  
+PA; and enumerations such as CVE and CWE. "
+5, ,Penetration testing ,"This topic covers the Flaw Hypothesis  
+Methodology and other forms (ISSAF, OSSTMM,  
+GISTA, PTES, etc.). 
+ "
+"5,1 ", ,Forensics ,"This topic focuses on the system requirements for  
+forensics. "
+5, ,"Recovery, resilience ",This topic includes availability mechanisms. 
+5,System Retirement , ,"This knowledge unit examines how retiring a  
+system at or before its end of life may affect the  
+security of other systems, or of the organization  
+that used the system. "
+5, ,Decommissioning ,"This topic examines how retiring a system at or  
+before its end of life may affect the security of  
+other systems, or of the organization that used the  
+system. The student should understand the effects  
+of removing a system, or components or  
+connections within a system, upon the security of  
+the system as a whole "
+5, ,Disposal ,"This topic includes wiping media and other forms  
+of destruction to prevent sensitive information  
+(such as PII) from being recovered. "
+"5,2,3 ",System Testing , ,"This knowledge unit covers considerations of  
+testing systems to ensure they meet security  
+requirements. "
+"5,2,3 
+ ", ,Validating requirements ,"This topic describes methodologies to show that  
+requirements meet objectives "
+"5,2,3 
+ ", ,"Validating composition of  
+components ",This topic covers how to test a system as a whole. 
+"5,2,3 
+ ", ,Unit versus system testing ,"This topic covers how system testing differs from  
+component and connection testing. "
+"5,2,3 
+ ", ,"Formal verification of  
+systems ","This topic covers languages, theorem provers, and  
+hierarchical decomposition. "
+5,"Common System  
+Architectures ", ,"This knowledge unit applies the topics of this  
+knowledge area to specific architectures that are, or  
+are becoming, more common. "
+"5,4 ", ,Virtual machines ,"This topic covers hypervisors, virtualization of  
+disks and memory, and the use of virtual machines  
+in security "
+5, ,Industrial control systems ,This topic includes SCADA. 
+5, ,Internet of Things (IoT) ,"This topic includes examples such as refrigerators  
+and sensors "
+5, ,Embedded systems ,"This topic includes examples such as systems in spacecraft, and systems used in other hostile  
+environments. 
+ "
+5, ,Mobile systems ,"This topic includes examples such as laptops and  
+smartphones. "
+5, ,Autonomous systems ,"This topic includes examples such as robots and  
+UAVs that do not require human control. "
+5, ,General-purpose systems ,"This topic includes examples such as desktops,  
+laptops, and mainframes "
