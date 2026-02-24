@@ -1,5 +1,5 @@
 This is the code and data repository for '[LLM Name]: Designing Personalized and Workforce-Aligned Cybersecurity Curricula Using Fine-Tuned LLMs'.
-CurricuLLM is designed to automate cybersecurity curriculum analysis, leveraging the power of fine-tuned LLMs. 
+Our methodology is designed to automate cybersecurity curriculum analysis, leveraging the power of fine-tuned LLMs. 
 It consists of two parts: PreprocessLM, based on the Qwen-2.5-7B model, and ClassifyLM, based on a fine-tuned BERT. 
 
 # Get started 
