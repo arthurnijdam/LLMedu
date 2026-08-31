@@ -22,6 +22,6 @@ First, [role-based weights](https://github.com/arthurnijdam/LLMedu/blob/main/eva
 Then, the same process can be applied to real-world [courses](https://github.com/arthurnijdam/LLMedu/blob/main/eval/Course_analysis.ipynb), such that a given curriculum can be matched to the NICE framework. 
 
 # License 
-[LLM NAME] is distributed under the terms of the [Creative Commons-BY-NC-ND license](https://github.com/santisoler/cc-licenses/blob/main/LICENSE-CC-BY-NC-ND). 
-
+CurricuLLM is distributed under the terms of the [Creative Commons-BY-NC-ND license](https://github.com/santisoler/cc-licenses/blob/main/LICENSE-CC-BY-NC-ND). 
+Course information was collected from publicly accessible university websites. The scraped course descriptions and learning objectives are third-party materials and remain subject to the copyright and usage terms of their respective institutions (KTH Royal Institute of Technology, Nanyang Technological University, and Carnegie Mellon University). These materials are therefore not claimed to be licensed under the licence applied to the derived dataset. We provide source URLs and attribution for the original materials.
 
