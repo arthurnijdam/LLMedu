@@ -1,4 +1,4 @@
-This is the code and data repository for '[LLM Name]: Designing Personalized and Workforce-Aligned Cybersecurity Curricula Using Fine-Tuned LLMs'.
+This is the code and data repository for 'CurricuLLM: Designing Personalized and Workforce-Aligned Cybersecurity Curricula Using Fine-Tuned LLMs'.
 Our methodology is designed to automate cybersecurity curriculum analysis, leveraging the power of fine-tuned LLMs. 
 It consists of two parts: PreprocessLM, based on the Qwen-2.5-7B model, and ClassifyLM, based on a fine-tuned BERT. 
 For more details on our fine-tuning strategy, see [this file](https://github.com/arthurnijdam/LLMedu/tree/main/finetuning.pdf). A file with supplementary methodological information and results can be found [here](https://github.com/arthurnijdam/LLMedu/tree/main/supplementary.pdf).
@@ -17,7 +17,7 @@ The most notable resources are:
 3. [Knowledge Descriptions from the v2.0.0. NICE framework, annotated by Expert Group X + Control Group B](https://github.com/arthurnijdam/LLMedu/blob/main/data/new_random_50_kd_mappings_with_AI_mappings2.xlsx). 
 
 # Evaluation 
-After completing the steps listed in 'Get Started', [LLM NAME] can be applied to several scenarios, also listed in our paper. 
+After completing the steps listed in 'Get Started', CurricuLLM can be applied to several scenarios, also listed in our paper. 
 First, [role-based weights](https://github.com/arthurnijdam/LLMedu/blob/main/eval/compute_role-based_weights.ipynb) for each NICE job role can be computed. 
 Then, the same process can be applied to real-world [courses](https://github.com/arthurnijdam/LLMedu/blob/main/eval/Course_analysis.ipynb), such that a given curriculum can be matched to the NICE framework. 
 
